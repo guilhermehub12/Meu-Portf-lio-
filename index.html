@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- *** FAVICON ***-->
+  <link rel="shortcut icon" href="./assets/imgs/favicon-32x32.png" type="image/x-icon">
+  <!-- *** REMIX ICON ***-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- *** CSS ***-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Meu Portfólio</title>
+</head>
+
+<body>
+  <!-- *** HEADER ***-->
+  <header class="perfil container">
+    <i class="ri-moon-line troca-tema" id="tema-botao"></i>
+
+    <div class="perfil_container grid">
+      <div class="perfil_dados">
+        <div class="perfil_borda">
+          <div class="perfil_perfil">
+            <img src="./assets/imgs/perfil.svg" alt="Minha Foto">
+          </div>
+        </div>
+
+        <h2 class="perfil_nome">Guilherme Delmiro</h2>
+        <h3 class="perfil_descricao">Desenvolvedor Web - Front End</h3>
+
+        <ul class="perfil_social">
+          <li>
+            <a title="linkedin" href="https://www.linkedin.com/in/guilhermedelmiro/" rel="noopener" target="_blank"
+              class="perfil_social-link">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+          </li>
+          <li>
+            <a title="github" href="https://github.com/guilhermehub12" rel="noopener" target="_blank"
+              class="perfil_social-link">
+              <i class="ri-github-line"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="perfil_botao">
+        <!-- *** Currículo ***-->
+        <a title="curriculo" download="" href="./assets/pdf/Guilherme_Da_Silva_Delmiro_CV.pdf" class="botao">
+          Baixar CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="perfil_botao-menor">
+          <!-- *** Contato/Wpp ***-->
+          <a title="whatsapp" href="https://api.whatsapp.com/send?phone=5585994371770" rel="noopener" target="_blank"
+            class="botao botao_menor botao_cinza">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+
+          <!-- *** Telegram ***-->
+          <a title="telegram" href="https://t.me/GuiDelmiro132" rel="noopener" target="_blank"
+            class="botao botao_menor botao_cinza">
+            <i class="ri-telegram-line"></i>
+          </a>
+
+          <!-- *** Email ***-->
+          <a title="email" href="mailto:guilhermedelmiro11@gmail.com" target="_blank"
+            class="botao botao_menor botao_cinza">
+            <i class="ri-mail-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- *** PRINCIPAL ***-->
+  <main class="principal">
+    <section class="filtros container">
+      <!-- *** ABA DE FILTROS  *** -->
+      <ul class="filtros_conteudo">
+        <button class="filtros_botao filtros-aba-ativo" data-target="#projetos">
+          Projetos
+        </button>
+        <!--<button class="filtros_botao " data-target="#habilidades">
+          Habilidades
+        </button>-->
+      </ul>
+
+      <div class="filtros_secoes">
+        <!-- *** ABA DE PROJETOS *** -->
+        <div class="projetos_conteudo grid filtros_ativo" data-content id="projetos">
+          <article class="projetos_lista">
+            <!-- Inserir img em um formato retangular (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+            <img src="./assets/imgs/projeto1.jpeg" alt="projeto1" class="projetos_img">
+
+            <div class="projetos_modal">
+              <div>
+                <span class="projetos_subtitulo">Web</span>
+                <h3 class="projetos_titulo">ToDo List Site</h3>
+                <a rel="noopener" title="link" target="_blank" href="https://guilhermehub12.github.io/ToDo-List/"
+                  class="projetos_botao botao botao_menor">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projetos_lista">
+            <img src="./assets/imgs/projeto4.jpeg" alt="projeto4" class="projetos_img">
+
+            <div class="projetos_modal">
+              <div>
+                <span class="projetos_subtitulo">Web</span>
+                <h3 class="projetos_titulo">Maratona Explorer Site</h3>
+                <a rel="noopener" title="link" target="_blank"
+                  href="https://guilhermehub12.github.io/Maratona-Explorer/" class="projetos_botao botao botao_menor">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projetos_lista">
+            <img src="./assets/imgs/projeto5.jpeg" alt="projeto5" class="projetos_img">
+
+            <div class="projetos_modal">
+              <div>
+                <span class="projetos_subtitulo">Web</span>
+                <h3 class="projetos_titulo">Landing Page Site</h3>
+                <a rel="noopener" title="link" target="_blank" href="https://guilhermehub12.github.io/LandingPage/"
+                  class="projetos_botao botao botao_menor">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projetos_lista">
+            <img src="./assets/imgs/projeto2.jpeg" alt="projeto2" class="projetos_img">
+
+            <div class="projetos_modal">
+              <div>
+                <span class="projetos_subtitulo">Web</span>
+                <h3 class="projetos_titulo">Netflix Clone Site</h3>
+                <a rel="noopener" title="link" target="_blank" href="https://guilhermehub12.github.io/Netflix-Clone/"
+                  class="projetos_botao botao botao_menor">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projetos_lista">
+            <img src="./assets/imgs/projeto3.jpeg" alt="projeto3" class="projetos_img">
+
+            <div class="projetos_modal">
+              <div>
+                <span class="projetos_subtitulo">Web</span>
+                <h3 class="projetos_titulo">Hotel Site</h3>
+                <a rel="noopener" title="link" target="_blank" target="_blank"
+                  href="https://github.com/guilhermehub12/Atividade-Juventude-Digital"
+                  class="projetos_botao botao botao_menor">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+
+        </div>
+
+        <!-- *** ABA DE HABILIDADES *** -->
+        <!--<div class="habilidades_conteudo grid" data-content id="habilidades">
+          <div class="habilidades_area">
+            <h3 class="habilidades_titulo">FrontEnd Developer</h3>
+
+            <div class="habilidades_box">
+              <div class="habilidades_grupo">
+                <div class="habilidades_dados">
+                  <i class="ri-checkox-circle-line"></i>
+
+                  <div>
+                    <h3 class="habilidades_nome">HTML</h3>
+                    <span class="habilidades_nivel">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="habilidades_dados">
+                  <i class="ri-checkox-circle-line"></i>
+
+                  <div>
+                    <h3 class="habilidades_nome">CSS</h3>
+                    <span class="habilidades_nivel">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="habilidades_dados">
+                  <i class="ri-checkox-circle-line"></i>
+
+                  <div>
+                    <h3 class="habilidades_nome">JavaScript</h3>
+                    <span class="habilidades_nivel">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="habilidades_dados">
+                  <i class="ri-checkox-circle-line"></i>
+
+                  <div>
+                    <h3 class="habilidades_nome">Git</h3>
+                    <span class="habilidades_nivel">Intermediário</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p class="footer_texto">
+      Desenvolvido por <a title="guilhermedelmiro" href="https://www.linkedin.com/in/guilhermedelmiro/" rel="noopener"
+        target="_blank">Guilherme Delmiro</a>
+    </p>
+  </footer>
+
+  <!-- *** SCRIPTS *** -->
+  <script src="./assets/js/scrollreveal.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
